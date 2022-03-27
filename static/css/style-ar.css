@@ -1150,6 +1150,8 @@ body .footer .content > div .image {
   font-size: 30px;
   display: inline-block;
   vertical-align: top;
+  text-align: right !important;
+
 }
 
 
@@ -2030,10 +2032,11 @@ footer .row:last-of-type p {
 }
 
 @media (max-width:500px) {
-  .title.text-md-right,
+  .title,
   .info-list p {
     text-align:center;
   }
+
 
   .row,
   ul.filter.nav {
@@ -2066,5 +2069,6 @@ footer .row:last-of-type p {
     font-size: 28px;
     margin-bottom:30px;
   }
+
 
 }

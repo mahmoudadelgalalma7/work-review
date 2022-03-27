@@ -1461,7 +1461,7 @@ body .footer .content > div .image {
   height: 35px;
   line-height: 31px;
   background: #fff;
-  border: 2px solid #fff;
+  border: 2px solid #CCC;
   color: #0b0b13;
   text-align: center;
   border-radius: 50%;
@@ -1485,13 +1485,19 @@ body .footer .content > div .image {
   line-height: inherit;
 }
 .about-me .social-icons a:nth-child(1) {
-  top: -12px;
+  top: -40px;
 }
 .about-me .social-icons a:nth-child(2) {
-  top: 0px;
+  top: -15px;
 }
 .about-me .social-icons a:nth-child(3) {
-  top: -12px;
+  top: 0px;
+}
+.about-me .social-icons a:nth-child(4) {
+  top: -15px;
+}
+.about-me .social-icons a:nth-child(5) {
+  top: -40px;
 }
 .about-me .social-icons a:hover {
   -moz-transform: scale(1.1);

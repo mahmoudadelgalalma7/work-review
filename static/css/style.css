@@ -2098,6 +2098,10 @@ footer .row:last-of-type p {
 }
 
 @media (max-width: 767px) {
- 
-
+  .hb-lang {
+    position:absolute;
+  }
+  .mob-header {
+    position:sticky;
+  }
 }

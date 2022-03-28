@@ -2086,3 +2086,18 @@ footer .row:last-of-type p {
   transition:transform .5s ;
   z-index:100
 }
+
+@media (max-width: 767px) {
+  .hb-lang {
+    position:absolute;
+    display:flex;
+    width:100%;
+    justify-content: center;
+    top:0;
+    transform:initial;
+    right:0;
+  }
+  .mob-header {
+    position:sticky;
+  }
+}

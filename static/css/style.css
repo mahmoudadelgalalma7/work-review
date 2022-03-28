@@ -1263,7 +1263,7 @@ font-weight:bold;
   position: relative;
   z-index: 1;
 }
-.home-banner .hb-top-fixed {
+ .hb-top-fixed {
   position: absolute;
   padding: 30px 50px 0;
   top: 0;
@@ -1272,41 +1272,41 @@ font-weight:bold;
   z-index: 100;
 }
 @media (max-width: 767px) {
-  .home-banner .hb-top-fixed .container{
+ .hb-top-fixed .container{
     display: none !important;
   }
 }
-.home-banner .hb-top-fixed .hb-info label {
+ .hb-top-fixed .hb-info label {
   margin: 0;
   color: #fff;
   font-weight: 400;
   font-size: 14px;
 }
-.theme-light .home-banner .hb-top-fixed .hb-info label {
+.theme-light .hb-top-fixed .hb-info label {
   color: #0b0b13;
 }
-.home-banner .hb-top-fixed .hb-info label + label {
+ .hb-top-fixed .hb-info label + label {
   margin-left: 40px;
 }
-.home-banner .hb-top-fixed .hb-lang {
+ .hb-top-fixed .hb-lang {
   margin-left: auto;
 }
-.home-banner .hb-top-fixed .hb-lang li + li {
+ .hb-top-fixed .hb-lang li + li {
   margin-left: 10px;
 }
-.home-banner .hb-top-fixed .hb-lang li a {
+ .hb-top-fixed .hb-lang li a {
   color: #fff;
   font-size: 14px;
   padding: 5px 8px;
 }
-.theme-light .home-banner .hb-top-fixed .hb-lang li a {
+.theme-light   .hb-top-fixed .hb-lang li a {
   color: #0b0b13;
   font-weight: 500;
 }
-.home-banner .hb-top-fixed .hb-lang li:hover, .home-banner .hb-top-fixed .hb-lang li.active {
+ .hb-top-fixed .hb-lang li:hover,  .hb-top-fixed .hb-lang li.active {
   background: var(--mainColor);
 }
-.theme-light .home-banner .hb-top-fixed .hb-lang li:hover a, .theme-light .home-banner .hb-top-fixed .hb-lang li.active a {
+.theme-light  .hb-top-fixed .hb-lang li:hover a, .theme-light  .hb-top-fixed .hb-lang li.active a {
   color: #fff;
 }
 .home-banner .hb-me {
@@ -2080,5 +2080,24 @@ footer .row:last-of-type p {
     font-size: 28px;
     margin-bottom:30px;
   }
+
+}
+
+/* Partners */
+
+.partners-row img{
+  transform:scale(1,1)  rotate(0deg) ;
+  transition:transform .5s ;
+
+}
+
+.partners-row img:hover{
+  transform: scale(1.1,1.1)  rotate(10deg) ;
+  transition:transform .5s ;
+  z-index:100
+}
+
+@media (max-width: 767px) {
+ 
 
 }

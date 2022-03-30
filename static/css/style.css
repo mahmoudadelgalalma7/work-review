@@ -2122,6 +2122,7 @@ footer .row:last-of-type p {
 /* Edit BTN Parents */
 .button-partners {
   text-align: center;
+  margin-top:50px;
 }
 
 .button-partners a {

@@ -2090,6 +2090,9 @@ footer .row:last-of-type p {
   transition:transform .5s ;
   z-index:100
 }
+.partners-row.packages img:hover{
+  transform:initial;
+}
 
 @media (max-width: 767px) {
   .hb-lang {
@@ -2131,14 +2134,14 @@ footer .row:last-of-type p {
 }
 
 /* edit package */
-.package-img {
+/* .package-img {
   border:2px solid var(--mainColor);
   border-radius:10px;
   min-height: 451px;
 
 
-}
-.package a {
+}*/
+ .package a {
   display:flex;
   text-align: center;
   font-size:25px;
@@ -2152,11 +2155,11 @@ footer .row:last-of-type p {
   justify-content: center;
   padding: 10px 25px;
 
-}
+} 
 .package a:hover{
   background-color:var(--mainColor)
 }
-
+/*
 .info-list h3 {
   color:var(--mainColor);
   text-align: center;
@@ -2169,5 +2172,28 @@ footer .row:last-of-type p {
   font-weight: 700;
   margin-top:40px
 
+} */
+
+.more {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--mainColor);
+  color: #111;
+  margin: auto;
+  padding: 15px 70px;
+  border-radius: 20px;
+  border:1px solid transparent;
+  font-weight: bold;
+  margin-top:30px;
+
+
+}
+
+.more:hover{
+  color:#FFF;
+  background-color:transparent;
+  border:1px solid var(--mainColor)
 }
 

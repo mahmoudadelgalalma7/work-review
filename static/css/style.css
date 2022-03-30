@@ -2090,6 +2090,7 @@ footer .row:last-of-type p {
   transition:transform .5s ;
   border:2px solid orange;
   width:100%;
+  border-radius:10px;
 
 }
 
@@ -2133,6 +2134,44 @@ footer .row:last-of-type p {
 }
 
 /* edit package */
-.package {
-  
+.package-img {
+  border:2px solid var(--mainColor);
+  border-radius:10px;
+  min-height: 451px;
+
+
 }
+.package a {
+  display:flex;
+  text-align: center;
+  font-size:25px;
+  border:1px solid #111;
+  border-radius:10px;
+  margin-top:10px;
+  background-color:#DDD;
+  color:#111;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 25px;
+
+
+}
+.package a:hover{
+  background-color:var(--mainColor)
+}
+
+.info-list h3 {
+  color:var(--mainColor);
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  padding: 20px 50px;
+  background-color: black;
+  border-bottom-left-radius: 20px 25px;
+  border-top-right-radius: 20px 25px;
+  font-weight: 700;
+  margin-top:40px
+
+}
+

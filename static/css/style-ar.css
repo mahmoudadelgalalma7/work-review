@@ -2078,11 +2078,12 @@ footer .row:last-of-type p {
 .partners-row img{
   transform:scale(1,1)  rotate(0deg) ;
   transition:transform .5s ;
+  border:2px solid orange
 
 }
 
 .partners-row img:hover{
-  transform: scale(1.1,1.1)  rotate(-10deg) ;
+  transform: scale(1.1,1.1)  rotate(-5deg) ;
   transition:transform .5s ;
   z-index:100
 }
@@ -2100,4 +2101,28 @@ footer .row:last-of-type p {
   .mob-header {
     position:sticky;
   }
+}
+
+
+.partners-row h4 {
+  text-align: center;
+  padding:20px
+}
+
+
+/* Edit BTN Parents */
+.button-partners {
+  text-align: center;
+}
+
+.button-partners a {
+  padding:15px 20px;
+  border:1px solid var(--mainColor);
+  color:#FFF;
+  border-radius:15px ;
+  font-weight: bold;
+}
+
+.button-partners a:hover{
+  background-color:var(--mainColor);
 }

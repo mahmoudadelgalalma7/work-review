@@ -2078,7 +2078,8 @@ footer .row:last-of-type p {
 .partners-row img{
   transform:scale(1,1)  rotate(0deg) ;
   transition:transform .5s ;
-  border:2px solid orange
+  border:2px solid orange;
+  width:100%
 
 }
 
@@ -2105,7 +2106,7 @@ footer .row:last-of-type p {
 
 
 .partners-row h4 {
-  text-align: center;
+  text-align: center !important;
   padding:20px
 }
 

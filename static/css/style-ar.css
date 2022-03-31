@@ -431,13 +431,78 @@ mark {
 .mob-header .logo-text {
   font-weight: 600;
   color: #fff;
-  font-size: 18px;
+  font-size: 18px ;
   line-height: 1;
   display:flex;
   justify-content: center;
   align-items: center;
   gap:30px;}
 
+  .mob-header .logo-text img {
+    margin-right:5px;
+  }
+  @media (max-width:450px) and (min-width:401px){
+    .mob-header .logo-text{
+      font-size:15px;
+    }
+  }
+
+  @media (max-width:400px) and (min-width:365px){
+    .mob-header .logo-text{
+      font-size:15px;
+    }
+    .mob-header .logo-text img {
+      margin:0;
+    }
+    .mob-header .logo-text{
+      gap:10px
+    }
+  }
+  @media (max-width:364px) and (min-width:335px) {
+    .mob-header .logo-text{
+      font-size:13px;
+    }
+    .mob-header .logo-text{
+      gap:10px
+    }
+  }
+
+  @media (max-width:334px) and (min-width:290px) {
+    .mob-header .logo-text{
+      font-size:13px;
+      flex-wrap: wrap;
+    }
+    .mob-header .logo-text{
+      gap:10px
+    }
+  }
+
+  @media (max-width:289px) and (min-width:230px) {
+    .mob-header .logo-text{
+      font-size:13px;
+      flex-wrap: wrap;
+    }
+    .mob-header .logo-text{
+      gap:10px
+    }
+    .mob-header > .d-flex{
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width:229px)  {
+    .mob-header .logo-text{
+      font-size:10px;
+      flex-wrap: wrap;
+    }
+    .mob-header .logo-text{
+      gap:10px
+    }
+    .mob-header > .d-flex{
+      flex-wrap: wrap;
+    }
+  }
+
+  
 .theme-light .mob-header .logo-text {
   color: #0b0b13;
 }

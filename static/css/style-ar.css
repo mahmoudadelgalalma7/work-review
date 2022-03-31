@@ -2180,6 +2180,13 @@ footer .row:last-of-type p {
 
 }
 
+@media(min-width:992px) {
+  .partners-row img{
+    min-height: 350px;
+    max-height: 400px;
+  }
+}
+
 .partners-row img:hover{
   transform: scale(1.1,1.1)  rotate(-5deg) ;
   transition:transform .5s ;

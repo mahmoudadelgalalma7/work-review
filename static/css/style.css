@@ -1,3 +1,5 @@
+@import url('https://mahmoudadelgalalma7.github.io/save-ab-marketing/style.css');
+
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
@@ -2200,4 +2202,15 @@ footer .row:last-of-type p {
   color:#FFF;
   background-color:transparent;
   border:1px solid var(--mainColor)
+}
+
+
+/* edit icons footer */
+
+footer .row.justify-content-center .col-md-2 {
+  gap:20px
+}
+footer .row.justify-content-center .col-md-2 i {
+  color:#111 !important;
+  font-weight: bold;
 }

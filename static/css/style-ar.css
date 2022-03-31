@@ -471,6 +471,7 @@ mark {
     .mob-header .logo-text{
       font-size:13px;
       flex-wrap: wrap;
+      flex-direction: column-reverse;
     }
     .mob-header .logo-text{
       gap:10px
@@ -481,18 +482,23 @@ mark {
     .mob-header .logo-text{
       font-size:13px;
       flex-wrap: wrap;
+      flex-direction: column-reverse;
+
     }
     .mob-header .logo-text{
       gap:10px
     }
     .mob-header > .d-flex{
       flex-wrap: wrap;
+      
     }
   }
   @media (max-width:229px)  {
     .mob-header .logo-text{
       font-size:10px;
       flex-wrap: wrap;
+      flex-direction: column-reverse;
+
     }
     .mob-header .logo-text{
       gap:10px
@@ -502,7 +508,7 @@ mark {
     }
   }
 
-  
+
 .theme-light .mob-header .logo-text {
   color: #0b0b13;
 }

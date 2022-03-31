@@ -2058,6 +2058,10 @@ ul.filter.nav {
   grid-gap: 30px;
   justify-content: space-around;
 }
+.clients-imgs img {
+  min-width:100px;
+  min-height: 91px;
+}
 
 @media (max-width: 768px) {
   .clients-imgs {

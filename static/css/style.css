@@ -450,9 +450,13 @@ mark {
 .mob-header .logo-text {
   font-weight: 600;
   color: #fff;
-  font-size: 25px;
+  font-size: 18px;
   line-height: 1;
-}
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:30px;}
+  
 .theme-light .mob-header .logo-text {
   color: #0b0b13;
 }

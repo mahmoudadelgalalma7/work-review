@@ -460,6 +460,9 @@ mark {
     .mob-header .logo-text{
       gap:10px
     }
+    .navbar-brand{
+      margin:0
+    }
   }
   @media (max-width:364px) and (min-width:335px) {
     .mob-header .logo-text{
@@ -467,6 +470,9 @@ mark {
     }
     .mob-header .logo-text{
       gap:10px
+    }
+    .navbar-brand{
+      margin:0
     }
   }
 
@@ -479,6 +485,9 @@ mark {
     .mob-header .logo-text{
       gap:10px
     }
+    .navbar-brand{
+      margin:0
+    }
   }
 
   @media (max-width:289px) and (min-width:230px) {
@@ -488,7 +497,16 @@ mark {
       text-align: center;
     }
     .mob-header .logo-text{
-      gap:10px
+      gap:15px
+    }
+    .navbar-brand{
+      margin:0
+    }
+    .toggler-menu {
+      left:1% !important
+    }
+    .mob-header .logo-text img{
+      margin-right:10px
     }
     /* .mob-header > .d-flex{
       flex-wrap: wrap;

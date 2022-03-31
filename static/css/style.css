@@ -460,7 +460,7 @@ mark {
   .mob-header .logo-text img {
     margin-right:5px;
   }
-  @media (max-width:450px) and (min-width:401px){
+   @media (max-width:450px) and (min-width:401px){
     .mob-header .logo-text{
       font-size:15px;
     }
@@ -488,8 +488,9 @@ mark {
 
   @media (max-width:334px) and (min-width:290px) {
     .mob-header .logo-text{
-      font-size:13px;
-      flex-wrap: wrap;
+      font-size:10px;
+      white-space:normal;
+      text-align: center;
     }
     .mob-header .logo-text{
       gap:10px
@@ -498,17 +499,18 @@ mark {
 
   @media (max-width:289px) and (min-width:230px) {
     .mob-header .logo-text{
-      font-size:13px;
-      flex-wrap: wrap;
+      font-size:10px;
+      white-space:normal;
+      text-align: center;
     }
     .mob-header .logo-text{
       gap:10px
     }
-    .mob-header > .d-flex{
+    /* .mob-header > .d-flex{
       flex-wrap: wrap;
-    }
+    } */
   }
-  @media (max-width:229px)  {
+  /* @media (max-width:229px)  {
     .mob-header .logo-text{
       font-size:10px;
       flex-wrap: wrap;
@@ -519,7 +521,7 @@ mark {
     .mob-header > .d-flex{
       flex-wrap: wrap;
     }
-  }
+ }  */
 
 .theme-light .mob-header .logo-text {
   color: #0b0b13;

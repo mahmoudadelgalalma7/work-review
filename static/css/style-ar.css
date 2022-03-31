@@ -445,6 +445,9 @@ mark {
     .mob-header .logo-text{
       font-size:15px;
     }
+    .navbar-brand{
+      margin:0;
+    }
   }
 
   @media (max-width:400px) and (min-width:365px){
@@ -469,9 +472,9 @@ mark {
 
   @media (max-width:334px) and (min-width:290px) {
     .mob-header .logo-text{
-      font-size:13px;
-      flex-wrap: wrap;
-      flex-direction: column-reverse;
+      font-size:10px;
+      white-space:normal;
+      text-align: center;
     }
     .mob-header .logo-text{
       gap:10px
@@ -480,25 +483,21 @@ mark {
 
   @media (max-width:289px) and (min-width:230px) {
     .mob-header .logo-text{
-      font-size:13px;
-      flex-wrap: wrap;
-      flex-direction: column-reverse;
-
+      font-size:8px;
+      white-space:pre;
+      text-align: center;
     }
     .mob-header .logo-text{
       gap:10px
     }
-    .mob-header > .d-flex{
+    /* .mob-header > .d-flex{
       flex-wrap: wrap;
-      
-    }
+    } */
   }
-  @media (max-width:229px)  {
+  /* @media (max-width:229px)  {
     .mob-header .logo-text{
       font-size:10px;
       flex-wrap: wrap;
-      flex-direction: column-reverse;
-
     }
     .mob-header .logo-text{
       gap:10px
@@ -506,8 +505,7 @@ mark {
     .mob-header > .d-flex{
       flex-wrap: wrap;
     }
-  }
-
+ }  */
 
 .theme-light .mob-header .logo-text {
   color: #0b0b13;

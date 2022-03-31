@@ -620,24 +620,7 @@ body .footer {
   grid-area: footer;
   min-height: 12rem;
 }
-body .footer .bubbles {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 1rem;
-  background: var(--footer-background);
-  filter: url("#blob");
-}
-body .footer .bubbles .bubble {
-  position: absolute;
-  left: var(--position, 50%);
-  background: var(--footer-background);
-  border-radius: 100%;
-  -webkit-animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s), bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
-          animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s), bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
-  transform: translate(-50%, 100%);
-}
+
 body .footer .content {
   z-index: 2;
   display: grid;
@@ -1627,6 +1610,77 @@ font-weight:bold;
 .about-me .social-icons a:nth-child(5) {
   top: -40px;
 }
+@media (max-width:1199px) and (min-width:991px) {
+  .about-me .social-icons a:nth-child(1) {
+    top: -25px;
+    right:25px;
+  }
+  .about-me .social-icons a:nth-child(2) {
+    top: 15px;
+    right:40px;
+  }
+  .about-me .social-icons a:nth-child(3) {
+    top: 15px;
+    left:40px;
+  }
+  .about-me .social-icons a:nth-child(4) {
+    top: -25px;
+    left:25px;
+  }
+  .about-me .social-icons a:nth-child(5) {
+    top: 0px;
+  }
+  
+}
+
+@media (max-width:335px) and (min-width:275px) {
+  .about-me .social-icons a:nth-child(1) {
+    top: -25px;
+    right:25px;
+  }
+  .about-me .social-icons a:nth-child(2) {
+    top: 15px;
+    right:40px;
+  }
+  .about-me .social-icons a:nth-child(3) {
+    top: 15px;
+    left:40px;
+  }
+  .about-me .social-icons a:nth-child(4) {
+    top: -25px;
+    left:25px;
+  }
+  .about-me .social-icons a:nth-child(5) {
+    top: 0px;
+  }
+  
+}
+
+@media (max-width:274px) and (min-width:200px) {
+  .about-me .social-icons a:nth-child(1) {
+    top: -25px;
+    left:-30px;
+  }
+  .about-me .social-icons a:nth-child(2) {
+    top: 15px;
+    right:55px;
+  }
+  .about-me .social-icons a:nth-child(3) {
+    top: -25px;
+    left:35px;
+  }
+  .about-me .social-icons a:nth-child(4) {
+    top: 0px;
+    left:30px;
+  }
+  .about-me .social-icons a:nth-child(5) {
+    top: -20px;
+    left:35px;
+  } 
+  
+}
+
+
 .about-me .social-icons a:hover {
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);

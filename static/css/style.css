@@ -95,11 +95,13 @@ html {
 body {
   background-color: #1F1F1F;
   color: rgba(255, 255, 255, 0.8);
-  font-family: "Rubik", arial, monospac;
+  font-family: 'Font Awesome 5 Brands',"Rubik", arial, monospac;
   line-height: 1.7;
   font-size: 15px;
   font-weight: 300;
 }
+
+
 body.theme-light {
   background: #fff;
   color: #555;
@@ -107,7 +109,7 @@ body.theme-light {
 }
 
 .font-alt {
-  font-family: "Rubik", serif;
+  font-family: 'Font Awesome 5 Brands', "Rubik", serif;
 }
 
 img {
@@ -267,7 +269,7 @@ mark {
 .name {
   animation: blink 3s infinite linear alternate;
   color: #fff;
-  font-family: "Londrina Outline", sans-serif;
+  font-family: 'Font Awesome 5 Brands', "Londrina Outline", sans-serif;
   font-size: 4rem;
   font-weight: 700;
   text-align: center;
@@ -292,7 +294,7 @@ mark {
 .surname {
   animation: border-flickr 6s ease-in-out 3.28s infinite alternate both;
   color: #d5d2e0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Font Awesome 5 Brands', "Open Sans", sans-serif;
   font-size: 2rem;
   font-weight: 600;
   text-align: center;
@@ -372,6 +374,8 @@ mark {
 .header-left .nav-menu {
   padding-top: 45px;
   padding-bottom: 45px;
+  font-family: 'Font Awesome 5 Brands';
+
 }
 .header-left .nav-menu li {
   width: 100%;
@@ -1206,6 +1210,7 @@ font-weight:bold;
 .section {
   padding: 100px 0;
   position: relative;
+  font-family: 'Font Awesome 5 Brands';
 }
 @media (max-width: 991px) {
   .section {
@@ -2361,11 +2366,10 @@ footer .row.justify-content-center .col-md-2 i {
    width:25px !important;
 }
 
-.col-md-12.m-10px-tb h1,
-.col-md-6.m-10px-tb h1 {
+.col-md-12.m-10px-tb,
+.col-md-6.m-10px-tb {
   font-family: 'Font Awesome 5 Brands';
 }
-
 
 .row.justify-content-center {
   font-family: 'Font Awesome 5 Brands';

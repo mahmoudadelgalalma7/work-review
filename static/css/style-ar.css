@@ -347,6 +347,7 @@ mark {
   display: inline-block;
   vertical-align: top;
   text-align: center;
+  font-family: 'Font Awesome 5 Brands';
 }
 .header-left .nav-menu {
   padding-top: 45px;
@@ -2245,7 +2246,7 @@ footer .row:last-of-type p {
 
 /* Partners */
 
-.partners-row img{
+.partners-row  img{
   transform:scale(1,1)  rotate(0deg) ;
   transition:transform .5s ;
   border:2px solid orange ;
@@ -2256,13 +2257,13 @@ footer .row:last-of-type p {
 }
 
 @media(min-width:992px) {
-  .partners-row img{
+  .partners-row .col-lg-4 img{
     min-height: 400px;
     max-height: 400px;
   }
 }
 
-.partners-row img:hover{
+.partners-row .col-lg-4 img:hover{
   transform: scale(1.1,1.1)  rotate(-5deg) ;
   transition:transform .5s ;
   z-index:100
@@ -2378,9 +2379,6 @@ footer .row:last-of-type p {
 
 /* edit icons footer */
 
-footer .row.justify-content-center .col-md-2 {
-  gap:20px
-}
 footer .row.justify-content-center .col-md-2 i {
   color:#111 !important;
   font-weight: bold;
@@ -2390,3 +2388,26 @@ footer .row.justify-content-center .col-md-2 i {
 .row.justify-content-center {
   direction:ltr
 }
+
+
+.col-md-2 a {
+  display:flex;
+  align-items: center;
+  margin:10px;
+}
+
+
+.col-md-2 a svg {
+  height:15px !important;
+   width:25px !important;
+}
+
+.col-md-12.m-10px-tb.text-md-right h1 { 
+  font-family: 'Font Awesome 5 Brands';
+}
+
+.row.justify-content-center h1{
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: bold;
+
+} 

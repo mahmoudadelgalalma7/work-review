@@ -1,4 +1,11 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
@@ -24,13 +31,6 @@ Primary use:    pxdraft
 
 /* Glopal */
 
-:root {
-
-  --mainColor:orange;
-  --headerColor:yellow;
-  --secondColor:purple;
-  
-  }
   
   .print {
     width:300px;
@@ -83,13 +83,6 @@ Primary use:    pxdraft
 
 
 
-
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
-
 html {
   overflow-x: hidden;
 }
@@ -123,7 +116,7 @@ img {
 }
 
 a {
-  color: var(--mainColor);
+  color: purple;
 }
 a:hover {
   color: #d77c00;
@@ -131,7 +124,7 @@ a:hover {
 }
 
 mark {
-  background-image: linear-gradient(var(--mainColor), var(--mainColor));
+  background-image: linear-gradient(purple, purple);
   background-size: 100% 3px;
   background-repeat: no-repeat;
   background-position: 0 bottom;
@@ -149,7 +142,7 @@ mark {
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--mainColor);
+  background: purple;
   z-index: 99999;
 }
 
@@ -276,7 +269,7 @@ mark {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 5px var(--mainColor), 0 0 10px var(--mainColor), 0 0 20px var(--mainColor), 0 0 40px var(--mainColor), 0 0 80px var(--mainColor), 0 0 100px var(--mainColor), 0 0 120px var(--mainColor);
+  text-shadow: 0 0 5px purple, 0 0 10px purple, 0 0 20px purple, 0 0 40px purple, 0 0 80px purple, 0 0 100px purple, 0 0 120px purple;
 }
 .name > .letter {
   margin: 0 9px;
@@ -301,7 +294,7 @@ mark {
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: var(--mainColor) 2px 2px 10px;
+  text-shadow: purple 2px 2px 10px;
 }
 .surname > .letter {
   margin: 0 20px;
@@ -336,7 +329,7 @@ mark {
 @keyframes border-flickr {
   0%, 2%, 4%, 6%, 33%, 35%, 37%, 39%, 41%, 100% {
     border: 2px solid white;
-    box-shadow: var(--mainColor) 0px 0px 10px, inset var(--mainColor) 2px 2px 10px;
+    box-shadow: purple 0px 0px 10px, inset purple 2px 2px 10px;
   }
   1%, 3%, 5%, 34%, 36%, 38%, 40% {
     border-color: transparent;
@@ -360,7 +353,7 @@ mark {
   height: 100%;
 }
 .header-left .hl-top a {
-  background: var(--mainColor);
+  background: purple;
   color: #fff;
   font-weight: 600;
   text-decoration: none;
@@ -410,11 +403,11 @@ mark {
 }
 @media (min-width: 768px) {
   .header-left .nav-menu li .nav-link:hover {
-    color: var(--mainColor);
+    color: purple;
   }
 }
 .header-left .nav-menu li .nav-link.active {
-  color: var(--mainColor);
+  color: purple;
   font-weight: 600;
 }
 .header-left .social-icons {
@@ -424,7 +417,7 @@ mark {
   right: 0;
   width: 80px;
   display: none;
-  border:1px solid var(--mainColor);
+  border:1px solid purple;
 }
 .header-left .social-icons a {
   color: #fff;
@@ -432,7 +425,7 @@ mark {
   margin-right: 17px;
 }
 .header-left .social-icons a:hover {
-  color: var(--mainColor);
+  color: purple;
 }
 
 .tooltip {
@@ -548,7 +541,7 @@ mark {
   border-radius: 0;
   padding: 0;
   margin-left: 15px;
-  background: var(--mainColor);
+  background: purple;
   border: none;
   margin-left: auto;
 }
@@ -622,7 +615,7 @@ mark {
 }
 body .footer {
   z-index: 1;
-  --footer-background:var(--mainColor);
+  --footer-background:purple;
   display: grid;
   position: relative;
   grid-area: footer;
@@ -798,15 +791,15 @@ body .footer .content > div .image {
   font-weight: 500;
 }
 .pagination .page-item .page-link:hover {
-  background: var(--mainColor);
-  border-color: var(--mainColor);
+  background: purple;
+  border-color: purple;
   color: #fff;
 }
 .pagination .page-item.disabled .page-link {
   opacity: 0.5;
 }
 .pagination .page-item.active .page-link {
-  background: var(--mainColor);
+  background: purple;
   color: #fff;
   
 }
@@ -826,7 +819,7 @@ body .footer .content > div .image {
   background: #f7f7ff;
 }
 .tag-cloud a:hover {
-  background: var(--mainColor);
+  background: purple;
   color: #fff;
 }
 
@@ -869,8 +862,8 @@ body .footer .content > div .image {
 }
 .article .article-title h6 a {
   text-transform: uppercase;
-  color: var(--mainColor);
-  border-bottom: 1px solid var(--mainColor);
+  color: purple;
+  border-bottom: 1px solid purple;
 }
 .article .article-title h2 {
   color: #fff;
@@ -903,7 +896,7 @@ body .footer .content > div .image {
 }
 .article .article-title .media .media-body label {
   font-weight: 600;
-  color: var(--mainColor);
+  color: purple;
   margin: 0;
 }
 .article .article-title .media .media-body span {
@@ -932,7 +925,7 @@ body .footer .content > div .image {
 .article .article-content blockquote p {
   font-size: 20px;
   font-weight: 500;
-  color: var(--mainColor);
+  color: purple;
   margin: 0;
 }
 .article .article-content blockquote .blockquote-footer {
@@ -1079,7 +1072,7 @@ body .footer .content > div .image {
 }
 .proj-name .active {font-weight:bold}
 .proj-name:hover {
-  background: var(--mainColor);
+  background: purple;
   color: #fff!important;
 }
 .portfolio-filter-01 .filter {
@@ -1122,7 +1115,7 @@ font-weight:bold;
   bottom: 0;
   margin: auto;
   height: 2px;
-  background: var(--secondColor);
+  background: #FFF;
   position: absolute;
   -moz-transition: ease all 0.55s;
   -o-transition: ease all 0.55s;
@@ -1245,7 +1238,7 @@ font-weight:bold;
 }
 .title h3 {
   margin: 0;
-  color: var(--secondColor);
+  color: #FFF;
   position: relative;
   z-index: 1;
   font-weight: 600;
@@ -1262,7 +1255,7 @@ font-weight:bold;
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background: var(--mainColor);
+  background: purple;
   position: absolute;
   top: -8px;
   left: -15px;
@@ -1367,7 +1360,7 @@ font-weight:bold;
   font-weight: 500;
 }
  .hb-top-fixed .hb-lang li:hover,  .hb-top-fixed .hb-lang li.active {
-  background: var(--mainColor);
+  background: purple;
 }
 .theme-light  .hb-top-fixed .hb-lang li:hover a, .theme-light  .hb-top-fixed .hb-lang li.active a {
   color: #fff;
@@ -1549,7 +1542,7 @@ font-weight:bold;
   border: 5px solid #fff;
 }
 .theme-light .about-me .img-in {
-  border: 5px solid var(--mainColor);
+  border: 5px solid purple;
 }
 .about-me .img {
   position: relative;
@@ -1696,7 +1689,7 @@ font-weight:bold;
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  background: var(--mainColor);
+  background: purple;
   color: #fff;
 }
 
@@ -1761,7 +1754,7 @@ font-weight:bold;
   height: 200px;
   border-radius: 50%;
   z-index: -2;
-  background: var(--mainColor);
+  background: purple;
   -moz-transition: cubic-bezier(0.39, 0.58, 0.57, 1) all 0.15s;
   -o-transition: cubic-bezier(0.39, 0.58, 0.57, 1) all 0.15s;
   -webkit-transition: cubic-bezier(0.39, 0.58, 0.57, 1) all 0.15s;
@@ -1777,7 +1770,7 @@ font-weight:bold;
 }
 .feature-box-01 h5 {
   margin-bottom: 15px;
-  color: var(--secondColor);
+  color: #FFF;
   font-weight: bold;
 }
 .theme-light .feature-box-01 h5 {
@@ -1940,7 +1933,7 @@ font-weight:bold;
   padding: 5px 10px;
   border-radius: 3px;
   color: #fff;
-  background: var(--mainColor);
+  background: purple;
   font-size: 12px;
   font-weight: 500;
 }
@@ -1991,7 +1984,7 @@ font-weight:bold;
   -webkit-transition: ease all 0.55s;
   transition: ease all 0.55s;
   height: 10px;
-  background: var(--mainColor);
+  background: purple;
 }
 
 .aducation-box {
@@ -2066,7 +2059,7 @@ font-weight:bold;
 }
 .contact-info h4 {
   font-size: 34px;
-  color: var(--secondColor);
+  color: #FFF;
   font-weight: 500;
 }
 .theme-light .contact-info h4 {
@@ -2093,7 +2086,7 @@ font-weight:bold;
 .contact-info li i {
   width: 30px;
   text-align: center;
-  color: var(--mainColor);
+  color: purple;
   font-size: 22px;
 }
 .contact-info li span {
@@ -2110,7 +2103,7 @@ font-weight:bold;
 }
 .contact-form h4 {
   font-weight: 500;
-  color: var(--secondColor);
+  color: #FFF;
   font-size: 22px;
   margin-bottom: 20px;
 }
@@ -2226,7 +2219,7 @@ footer .row:last-of-type p {
 .partners-row  img{
   transform:scale(1,1)  rotate(0deg) ;
   transition:transform .5s ;
-  border:2px solid orange;
+  border:2px solid purple;
   width:100%;
   border-radius:10px;
 
@@ -2273,7 +2266,7 @@ footer .row:last-of-type p {
 
 .button-partners a {
   padding:15px 20px;
-  border:1px solid var(--mainColor);
+  border:1px solid purple;
   color:#FFF;
   border-radius:15px ;
   font-weight: bold;
@@ -2281,12 +2274,12 @@ footer .row:last-of-type p {
 }
 
 .button-partners a:hover{
-  background-color:var(--mainColor);
+  background-color:purple;
 }
 
 /* edit package */
 /* /* .package-img {
-  border:2px solid var(--mainColor);
+  border:2px solid purple;
   border-radius:10px;
   min-height: 451px;
 
@@ -2309,11 +2302,11 @@ footer .row:last-of-type p {
 
 }
 .package a:hover{
-  background-color:var(--mainColor)
+  background-color:purple
 }
 
 /* .info-list h3 {
-  color:var(--mainColor);
+  color:purple;
   text-align: center;
   width: fit-content;
   margin: auto;
@@ -2331,8 +2324,8 @@ footer .row:last-of-type p {
   width: fit-content;
   justify-content: center;
   align-items: center;
-  background-color: var(--mainColor);
-  color: #111;
+  background-color: purple;
+  color: #FFF;
   margin: auto;
   padding: 15px 70px;
   border-radius: 20px;
@@ -2345,7 +2338,7 @@ footer .row:last-of-type p {
 .more:hover{
   color:#FFF;
   background-color:transparent;
-  border:1px solid var(--mainColor)
+  border:1px solid purple
 }
 
 
@@ -2369,3 +2362,8 @@ footer .row.justify-content-center .col-md-2 i {
    width:25px !important;
 }
 
+
+.marof {
+  width:fit-content;
+  margin:auto;
+}
